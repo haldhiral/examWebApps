@@ -1,8 +1,0 @@
-CRITICAL - 2024-12-18 21:26:47 --> syntax error, unexpected double-quoted string "attachment", expecting "]"
-in APPPATH\Controllers\Engineer_receipt.php on line 400.
- 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('engineer_receipt/upload_receipts')
- 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('engineer_receipt/upload_receipts')
- 3 SYSTEMPATH\CodeIgniter.php(777): CodeIgniter\Router\Router->handle('engineer_receipt/upload_receipts')
- 4 SYSTEMPATH\CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
- 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
