@@ -1,0 +1,73 @@
+CRITICAL - 2024-07-10 10:34:33 --> Undefined variable $vendors
+in APPPATH\Views\edit_engineer.php on line 53.
+ 1 APPPATH\Views\edit_engineer.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $vendors', 'APPPATH\\Views\\edit_engineer.php', 53)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\edit_engineer.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('edit_engineer', [], true)
+ 5 APPPATH\Controllers\Edit_engineer.php(38): view('edit_engineer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Edit_engineer->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Edit_engineer))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-10 10:34:38 --> Undefined variable $vendors
+in APPPATH\Views\edit_engineer.php on line 53.
+ 1 APPPATH\Views\edit_engineer.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $vendors', 'APPPATH\\Views\\edit_engineer.php', 53)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\edit_engineer.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('edit_engineer', [], true)
+ 5 APPPATH\Controllers\Edit_engineer.php(38): view('edit_engineer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Edit_engineer->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Edit_engineer))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-10 10:35:14 --> Undefined variable $vendors
+in APPPATH\Views\edit_engineer.php on line 53.
+ 1 APPPATH\Views\edit_engineer.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $vendors', 'APPPATH\\Views\\edit_engineer.php', 53)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\edit_engineer.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('edit_engineer', [], true)
+ 5 APPPATH\Controllers\Edit_engineer.php(43): view('edit_engineer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Edit_engineer->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Edit_engineer))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-10 10:35:34 --> Undefined variable $vendors
+in APPPATH\Views\edit_engineer.php on line 53.
+ 1 APPPATH\Views\edit_engineer.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $vendors', 'APPPATH\\Views\\edit_engineer.php', 53)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\edit_engineer.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('edit_engineer', [], true)
+ 5 APPPATH\Controllers\Edit_engineer.php(44): view('edit_engineer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Edit_engineer->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Edit_engineer))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-10 10:36:07 --> Undefined variable $vendors
+in APPPATH\Views\edit_engineer.php on line 53.
+ 1 APPPATH\Views\edit_engineer.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $vendors', 'APPPATH\\Views\\edit_engineer.php', 53)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\edit_engineer.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('edit_engineer', [], true)
+ 5 APPPATH\Controllers\Edit_engineer.php(44): view('edit_engineer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Edit_engineer->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Edit_engineer))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-10 10:36:22 --> Undefined variable $vendors
+in APPPATH\Views\edit_engineer.php on line 53.
+ 1 APPPATH\Views\edit_engineer.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $vendors', 'APPPATH\\Views\\edit_engineer.php', 53)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\edit_engineer.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('edit_engineer', [], true)
+ 5 APPPATH\Controllers\Edit_engineer.php(44): view('edit_engineer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Edit_engineer->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Edit_engineer))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-10 10:36:55 --> Undefined array key "vendors"
+in APPPATH\Controllers\Edit_engineer.php on line 38.
+ 1 APPPATH\Controllers\Edit_engineer.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "vendors"', 'APPPATH\\Controllers\\Edit_engineer.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Edit_engineer->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Edit_engineer))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

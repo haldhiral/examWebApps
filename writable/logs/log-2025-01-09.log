@@ -1,0 +1,262 @@
+CRITICAL - 2025-01-09 10:24:39 --> Undefined variable $budget_attachment
+in APPPATH\Controllers\Detail_report.php on line 200.
+ 1 APPPATH\Controllers\Detail_report.php(200): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $budget_attachment', 'APPPATH\\Controllers\\Detail_report.php', 200)
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Detail_report->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Detail_report))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 12:52:36 --> Undefined variable $roles
+in APPPATH\Views\edit_user.php on line 65.
+ 1 APPPATH\Views\edit_user.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $roles', 'APPPATH\\Views\\edit_user.php', 65)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('edit_user', [], true)
+ 5 APPPATH\Controllers\EditUser.php(101): view('edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\EditUser->edit()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EditUser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 12:53:16 --> Undefined variable $roleModel
+in APPPATH\Controllers\EditUser.php on line 100.
+ 1 APPPATH\Controllers\EditUser.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $roleModel', 'APPPATH\\Controllers\\EditUser.php', 100)
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\EditUser->edit()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EditUser))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 12:54:59 --> Undefined variable $roles
+in APPPATH\Views\edit_user.php on line 65.
+ 1 APPPATH\Views\edit_user.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $roles', 'APPPATH\\Views\\edit_user.php', 65)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('edit_user', [], true)
+ 5 APPPATH\Controllers\EditUser.php(101): view('edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\EditUser->edit()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EditUser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 12:55:21 --> Undefined variable $roles
+in APPPATH\Views\edit_user.php on line 65.
+ 1 APPPATH\Views\edit_user.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $roles', 'APPPATH\\Views\\edit_user.php', 65)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('edit_user', [], true)
+ 5 APPPATH\Controllers\EditUser.php(101): view('edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\EditUser->edit()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EditUser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 12:56:41 --> Undefined variable $roles
+in APPPATH\Views\edit_user.php on line 65.
+ 1 APPPATH\Views\edit_user.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $roles', 'APPPATH\\Views\\edit_user.php', 65)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('edit_user', [], true)
+ 5 APPPATH\Controllers\EditUser.php(101): view('edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\EditUser->edit()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EditUser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 12:56:44 --> Undefined variable $roles
+in APPPATH\Views\edit_user.php on line 65.
+ 1 APPPATH\Views\edit_user.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $roles', 'APPPATH\\Views\\edit_user.php', 65)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('edit_user', [], true)
+ 5 APPPATH\Controllers\EditUser.php(101): view('edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\EditUser->edit()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EditUser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 12:57:14 --> Undefined variable $remarks
+in APPPATH\Controllers\EditUser.php on line 61.
+ 1 APPPATH\Controllers\EditUser.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $remarks', 'APPPATH\\Controllers\\EditUser.php', 61)
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\EditUser->edit()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EditUser))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 12:58:00 --> Undefined variable $remarks
+in APPPATH\Controllers\EditUser.php on line 61.
+ 1 APPPATH\Controllers\EditUser.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $remarks', 'APPPATH\\Controllers\\EditUser.php', 61)
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\EditUser->edit()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EditUser))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 12:58:11 --> Too few arguments to function App\Models\UserModel::update_user(), 7 passed in D:\xampp\htdocs\onlinetest\app\Controllers\EditUser.php on line 61 and exactly 9 expected
+in APPPATH\Models\UserModel.php on line 82.
+ 1 APPPATH\Controllers\EditUser.php(61): App\Models\UserModel->update_user('2', 'guru', 'guru@guru.com', 'guru', 'guru', '$2y$10$5hm02ss.lq3jo19BiUHUge46Slk9J8lhAwUPmAfaraRjQFVR/ROJi', '2025-04-09')
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\EditUser->edit()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EditUser))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 12:58:31 --> Undefined variable $telegram_id
+in APPPATH\Models\UserModel.php on line 102.
+ 1 APPPATH\Models\UserModel.php(102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $telegram_id', 'APPPATH\\Models\\UserModel.php', 102)
+ 2 APPPATH\Controllers\EditUser.php(61): App\Models\UserModel->update_user('2', 'guru', 'guru@guru.com', 'guru', 'guru', '$2y$10$LkZO9QsV5En0F72EhvuDLOAVUKXg2SzYqTa3VcCdFkKUiHQnj6fFi', '2025-04-09')
+ 3 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\EditUser->edit()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EditUser))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 13:00:57 --> Undefined variable $roles
+in APPPATH\Views\edit_user.php on line 65.
+ 1 APPPATH\Views\edit_user.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $roles', 'APPPATH\\Views\\edit_user.php', 65)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('edit_user', [], true)
+ 5 APPPATH\Controllers\EditUser.php(101): view('edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\EditUser->edit()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EditUser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 13:02:35 --> Undefined variable $roles
+in APPPATH\Views\edit_user.php on line 65.
+ 1 APPPATH\Views\edit_user.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $roles', 'APPPATH\\Views\\edit_user.php', 65)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\edit_user.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('edit_user', [], true)
+ 5 APPPATH\Controllers\EditUser.php(101): view('edit_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\EditUser->edit()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EditUser))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-01-09 01:08:10 --> mysqli_sql_exception: Unknown column 'created_at' in 'field list' in D:\xampp\htdocs\onlinetest\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\onlinetest\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `gr...', 0)
+#1 D:\xampp\htdocs\onlinetest\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `gr...')
+#2 D:\xampp\htdocs\onlinetest\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `gr...')
+#3 D:\xampp\htdocs\onlinetest\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `gr...', Array, false)
+#4 D:\xampp\htdocs\onlinetest\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\onlinetest\system\BaseModel.php(748): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\onlinetest\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp\htdocs\onlinetest\app\Controllers\Grade.php(28): CodeIgniter\Model->insert(Array)
+#8 D:\xampp\htdocs\onlinetest\system\CodeIgniter.php(902): App\Controllers\Grade->store()
+#9 D:\xampp\htdocs\onlinetest\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grade))
+#10 D:\xampp\htdocs\onlinetest\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\onlinetest\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2025-01-09 01:08:10 --> Unknown column 'created_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `grades` (`user`, `score`, `created_at`, `updated_at`) VALUES (\'john_doe\', 8, \'2025-01-09 01:08:10\', \'2025-01-09 01:08:10\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `grades` (`user`, `score`, `created_at`, `updated_at`) VALUES (\'john_doe\', 8, \'2025-01-09 01:08:10\', \'2025-01-09 01:08:10\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `grades` (`user`, `score`, `created_at`, `updated_at`) VALUES (\'john_doe\', 8, \'2025-01-09 01:08:10\', \'2025-01-09 01:08:10\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `grades` (`user`, `score`, `created_at`, `updated_at`) VALUES (:user:, :score:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(748): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Grade.php(28): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Grade->store()
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grade))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 04:36:19 --> Undefined variable $exam
+in APPPATH\Views\grade.php on line 33.
+ 1 APPPATH\Views\grade.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $exam', 'APPPATH\\Views\\grade.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\grade.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('grade', [], true)
+ 5 APPPATH\Controllers\Grade.php(27): view('grade', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Grade->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grade))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 04:36:29 --> Undefined array key "question"
+in APPPATH\Views\grade.php on line 39.
+ 1 APPPATH\Views\grade.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "question"', 'APPPATH\\Views\\grade.php', 39)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\grade.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('grade', [], true)
+ 5 APPPATH\Controllers\Grade.php(27): view('grade', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Grade->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grade))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 04:36:46 --> Undefined array key "question"
+in APPPATH\Views\grade.php on line 39.
+ 1 APPPATH\Views\grade.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "question"', 'APPPATH\\Views\\grade.php', 39)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\grade.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('grade', [], true)
+ 5 APPPATH\Controllers\Grade.php(28): view('grade', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Grade->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grade))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 04:37:34 --> Division by zero
+in APPPATH\Views\grade.php on line 41.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('grade', [], true)
+ 4 APPPATH\Controllers\Grade.php(28): view('grade', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Grade->index()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grade))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 04:47:12 --> Invalid file: ResetPassword.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('ResetPassword.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('ResetPassword', [], true)
+ 3 APPPATH\Controllers\ResetPassword.php(83): view('ResetPassword')
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\ResetPassword->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResetPassword))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 04:47:19 --> Invalid file: ResetPassword.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('ResetPassword.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('ResetPassword', [], true)
+ 3 APPPATH\Controllers\ResetPassword.php(83): view('ResetPassword')
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\ResetPassword->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResetPassword))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 04:47:31 --> Invalid file: reset_password.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('reset_password.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('reset_password', [], true)
+ 3 APPPATH\Controllers\ResetPassword.php(83): view('reset_password')
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\ResetPassword->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResetPassword))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 04:49:45 --> Class "App\Models\LogbookModel" not found
+in APPPATH\Controllers\ResetPassword.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\ResetPassword->index()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResetPassword))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-09 05:09:38 --> Class "App\Models\PhotoModel" not found
+in APPPATH\Controllers\UpdatePhoto.php on line 68.
+ 1 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\UpdatePhoto->update()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UpdatePhoto))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-01-09 14:17:24 --> mysqli_sql_exception: Duplicate entry '' for key 'PRIMARY' in D:\xampp\htdocs\onlinetest\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xampp\htdocs\onlinetest\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `st...', 0)
+#1 D:\xampp\htdocs\onlinetest\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `st...')
+#2 D:\xampp\htdocs\onlinetest\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `st...')
+#3 D:\xampp\htdocs\onlinetest\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `st...', Array, false)
+#4 D:\xampp\htdocs\onlinetest\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp\htdocs\onlinetest\system\BaseModel.php(748): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp\htdocs\onlinetest\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\xampp\htdocs\onlinetest\app\Models\PhotoModel.php(27): CodeIgniter\Model->insert(Array)
+#8 D:\xampp\htdocs\onlinetest\app\Controllers\UpdatePhoto.php(75): App\Models\PhotoModel->upsertPhotoByUsername('siswa_satu', Array)
+#9 D:\xampp\htdocs\onlinetest\system\CodeIgniter.php(902): App\Controllers\UpdatePhoto->update()
+#10 D:\xampp\htdocs\onlinetest\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UpdatePhoto))
+#11 D:\xampp\htdocs\onlinetest\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\xampp\htdocs\onlinetest\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2025-01-09 14:17:24 --> Duplicate entry '' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `student` (`student_name`, `username`, `photo`) VALUES (\'Haldhira Ladiva\', \'siswa_satu\', \'Haldhira Ladiva.png\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `student` (`student_name`, `username`, `photo`) VALUES (\'Haldhira Ladiva\', \'siswa_satu\', \'Haldhira Ladiva.png\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `student` (`student_name`, `username`, `photo`) VALUES (\'Haldhira Ladiva\', \'siswa_satu\', \'Haldhira Ladiva.png\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `student` (`student_name`, `username`, `photo`) VALUES (:student_name:, :username:, :photo:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(748): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Models\PhotoModel.php(27): CodeIgniter\Model->insert([...])
+ 9 APPPATH\Controllers\UpdatePhoto.php(75): App\Models\PhotoModel->upsertPhotoByUsername('siswa_satu', [...])
+10 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\UpdatePhoto->update()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UpdatePhoto))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

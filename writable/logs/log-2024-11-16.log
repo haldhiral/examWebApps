@@ -1,0 +1,24 @@
+CRITICAL - 2024-11-16 04:13:47 --> Uncaught ValueError: realpath(): Argument #1 ($path) must not contain any null bytes in D:\xampp\htdocs\debitnote\system\Common.php:90
+Stack trace:
+#0 D:\xampp\htdocs\debitnote\system\Common.php(90): realpath('%PDF-1.7\n1 0 ob...')
+#1 D:\xampp\htdocs\debitnote\system\Debug\Exceptions.php(483): clean_path('%PDF-1.7\n1 0 ob...')
+#2 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('%PDF-1.7\n1 0 ob...')
+#3 D:\xampp\htdocs\debitnote\system\Debug\Exceptions.php(488): array_map(Object(Closure), Array)
+#4 D:\xampp\htdocs\debitnote\system\Debug\Exceptions.php(114): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in SYSTEMPATH\Common.php on line 90.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-11-16 04:14:33 --> Uncaught ValueError: realpath(): Argument #1 ($path) must not contain any null bytes in D:\xampp\htdocs\debitnote\system\Common.php:90
+Stack trace:
+#0 D:\xampp\htdocs\debitnote\system\Common.php(90): realpath('%PDF-1.7\n1 0 ob...')
+#1 D:\xampp\htdocs\debitnote\system\Debug\Exceptions.php(483): clean_path('%PDF-1.7\n1 0 ob...')
+#2 [internal function]: CodeIgniter\Debug\Exceptions::CodeIgniter\Debug\{closure}('%PDF-1.7\n1 0 ob...')
+#3 D:\xampp\htdocs\debitnote\system\Debug\Exceptions.php(488): array_map(Object(Closure), Array)
+#4 D:\xampp\htdocs\debitnote\system\Debug\Exceptions.php(114): CodeIgniter\Debug\Exceptions::renderBacktrace(Array)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in SYSTEMPATH\Common.php on line 90.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()

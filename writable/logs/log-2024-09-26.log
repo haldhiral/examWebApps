@@ -1,0 +1,25 @@
+CRITICAL - 2024-09-26 13:26:06 --> Undefined variable $master
+in APPPATH\Controllers\Finance.php on line 49.
+ 1 APPPATH\Controllers\Finance.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $master', 'APPPATH\\Controllers\\Finance.php', 49)
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Finance->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-26 13:26:27 --> Undefined array key "date"
+in APPPATH\Views\finance.php on line 91.
+ 1 APPPATH\Views\finance.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "date"', 'APPPATH\\Views\\finance.php', 91)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\finance.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('finance', [], true)
+ 5 APPPATH\Controllers\Finance.php(93): view('finance', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Finance->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Finance))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-26 16:07:02 --> Array to string conversion
+in APPPATH\Controllers\Detail_returned.php on line 48.
+ 1 APPPATH\Controllers\Detail_returned.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Detail_returned.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Detail_returned->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Detail_returned))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

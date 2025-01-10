@@ -1,0 +1,56 @@
+ERROR - 2024-12-03 10:03:48 --> Error connecting to the database: mysqli_sql_exception: MySQL server has gone away in D:\xampp\htdocs\debitnote\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 D:\xampp\htdocs\debitnote\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'debitnote', 3306, '', 0)
+#1 D:\xampp\htdocs\debitnote\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\htdocs\debitnote\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\htdocs\debitnote\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\debitnote\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\debitnote\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\debitnote\app\Controllers\Login.php(26): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\debitnote\system\CodeIgniter.php(902): App\Controllers\Login->index()
+#8 D:\xampp\htdocs\debitnote\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 D:\xampp\htdocs\debitnote\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\debitnote\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: MySQL server has gone away in D:\xampp\htdocs\debitnote\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 D:\xampp\htdocs\debitnote\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\htdocs\debitnote\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\debitnote\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\xampp\htdocs\debitnote\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xampp\htdocs\debitnote\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#5 D:\xampp\htdocs\debitnote\app\Controllers\Login.php(26): CodeIgniter\BaseModel->findAll()
+#6 D:\xampp\htdocs\debitnote\system\CodeIgniter.php(902): App\Controllers\Login->index()
+#7 D:\xampp\htdocs\debitnote\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 D:\xampp\htdocs\debitnote\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\debitnote\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-12-03 10:03:48 --> Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `userdata`
+WHERE `username` = :username:', [...], false)
+ 3 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Login.php(26): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-03 10:55:59 --> Undefined variable $budget_attachment
+in APPPATH\Controllers\Detail_report.php on line 198.
+ 1 APPPATH\Controllers\Detail_report.php(198): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $budget_attachment', 'APPPATH\\Controllers\\Detail_report.php', 198)
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Detail_report->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Detail_report))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-03 11:26:32 --> Too few arguments to function App\Models\UserModel::createUser(), 7 passed in D:\xampp\htdocs\debitnote\app\Controllers\Create_user.php on line 30 and exactly 8 expected
+in APPPATH\Models\UserModel.php on line 36.
+ 1 APPPATH\Controllers\Create_user.php(30): App\Models\UserModel->createUser('test', 'testeng@testeng.com', 'testeng', 'engineer', '$2y$10$IzsIq2uPbFWOlsgexrI/Le50LHj39ZBEvx0JlSSUspCwpq5lLv/n.', 0, '2025-03-02')
+ 2 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Create_user->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Create_user))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
